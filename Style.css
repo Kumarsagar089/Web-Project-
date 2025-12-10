@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:wheat;
+}
+/* Navbar Styling */
+.navbar {
+    width: 100%;
+    height: 70px;
+    background: white;
+    padding: 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.nav-links li a:hover {
+    color: #00eaff;
+}
+.main{
+    width: 100%;
+    height: 700px;
+    background-color:black ;
+    display: flex;
+
+}
+.content{
+    color: white;
+    width: 60%;
+    height: 600px;
+    margin-top: 10px;
+
+}
+.content h1{
+    color: red;
+
+}
+.content p{
+    color: white;
+    font-family: SansSerif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.images{
+    padding-left: 20px;
+    justify-content: center;
+
+    align-content: center;
+}
+.images img{
+    width: 500px;
+    height: 90%;
+    margin-top: 15px;
+
+}
+.simple-footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #333;
+    border-top: 1px solid #ccc;
+}
+
